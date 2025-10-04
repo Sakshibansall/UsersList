@@ -25,7 +25,7 @@ function gpt() {
     setLoading(true);
 
     try {
-      const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
+      const API_KEY = import.meta.env.YOUR_KEY_HERE;
 
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`,
 

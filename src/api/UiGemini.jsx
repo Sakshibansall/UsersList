@@ -33,7 +33,7 @@ function UiGemini() {
     setLoading(true);
 
     try {
-      const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
+      const API_KEY = import.meta.env.YOUR_KEY_HERE;
 
       //fetching the api url
       const res = await fetch(

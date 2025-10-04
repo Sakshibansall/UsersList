@@ -57,7 +57,7 @@ function Data () {
         {
           method: 'POST',
           headers: {
-           Authorization: `Bearer ${import.meta.env.VITE_OPEN_API_KEY}`, // 👈 check your .env key name
+           Authorization: `Bearer ${import.meta.env.YOUR_KEY_HERE}`, // 👈 check your .env key name
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({

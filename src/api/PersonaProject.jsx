@@ -107,7 +107,7 @@ function UiGroq () {
         {
           method: 'POST',
           headers: {
-            Authorization: `Bearer ${import.meta.env.VITE_OPEN_API_KEY}`,
+            Authorization: `Bearer ${import.meta.env.YOUR_KEY_HERE}`,
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
