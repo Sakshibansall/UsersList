@@ -1,9 +1,15 @@
-import Home from "./Home.jsx";
-function App() {
-  
-
+// import Gemini from './api/Gemini'
+import PersonaProject from './api/PersonaProject.jsx'
+import UiGemini from './api/UiGemini.jsx'
+// import Home from "./Home.jsx";
+import Data from './api/Data'
+function App () {
   return (
-  <Home/>
+    // <Home/>
+    // <Gemini/>
+    // <UiGemini/>
+    // <PersonaProject/>
+    <Data />
   )
 }
 
